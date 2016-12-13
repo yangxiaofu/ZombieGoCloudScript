@@ -56,6 +56,7 @@ handlers.helloWorld = function (args, context) {
 
 // This is a simple example of making a PlayFab server API call
 handlers.makeAPICall = function (args, context) {
+    console.log("You mutha fucking whorebag bitch");
     
     // The pre-defined "server" object has functions corresponding to each PlayFab server API 
     // (https://api.playfab.com/Documentation/Server). It is automatically 
